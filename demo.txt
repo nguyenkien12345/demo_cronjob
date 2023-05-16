@@ -1,0 +1,28 @@
+// START DEMO 1 
+// const config = require('./config/config');
+// const scheduler = require('./scheduler');
+
+// scheduler.initCrons(config);
+// END DEMO 1
+
+// START DEMO 2
+const express = require('express');
+const app = express();
+const fs = require('fs');
+
+const cronJob = require('node-cron');
+
+// cronJob.schedule('* * * * *', () => {
+//     const data = 'Nguyễn Trung Kiên và Mai Thị Thanh Thúy';
+//     fs.appendFile('logs.txt', data, 'utf-8', (error) => {
+//         if (error) {
+//             console.log('Fail');
+//         }
+//         else {
+//             console.log('Write');
+//         }
+//     })
+// })
+// END DEMO 2
+
+Cả 2 demo này đều để trong file index.js
