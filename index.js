@@ -47,5 +47,5 @@ app.get('/maithithanhthuy', (req, res) => {
 
 app.listen(3000, () => {
     console.log('Port is running at PORT 3000');
-    cron.sendEmailToAllUser();
+    // cron.sendEmailToAllUser();
 })
